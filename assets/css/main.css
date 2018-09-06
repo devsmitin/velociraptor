@@ -1,0 +1,21 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1. Top Nav
+2. Something else
+--------------------------------------------------------------*/
+.navbar-nav .menu-item { position: relative; }
+
+.navbar-nav .menu-item a { padding: 0.5rem 1.5rem; display: block; color: inherit; border-radius: 4px; border-bottom: 2px solid transparent; }
+
+.navbar-nav .menu-item a:hover { text-decoration: none; background-color: rgba(0, 0, 0, 0.1); }
+
+.navbar-nav .menu-item:hover a + .sub-menu { display: block; }
+
+.navbar-nav .menu-item .sub-menu { display: none; padding: 5px; list-style: none; border: 1px solid #ddd; background: #fff; border-radius: 4px; position: absolute; top: 100%; top: calc(100% + 3px); }
+
+.navbar-nav .menu-item .sub-menu:before { content: ''; display: block; border: 1px solid #ddd; border-right-color: transparent; border-bottom-color: transparent; height: 12px; width: 12px; background: #fff; position: absolute; top: -6px; left: 50%; -ms-transform: translateX(-50%) rotate(45deg); transform: translateX(-50%) rotate(45deg); }
+
+.site-header { padding-top: 5rem; padding-bottom: 5rem; }
+
+/*# sourceMappingURL=main.css.map */
