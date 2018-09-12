@@ -30,8 +30,8 @@
 			<a class="navbar-brand p-3" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 				<?php bloginfo( 'name' ); ?>
 			</a>
-			<button class="navbar-toggler navbar-toggler-right mr-3" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-			 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+			<button class="navbar-toggler navbar-toggler-right mr-3" type="button" data-toggle="slidenav" data-target="#navbarResponsive" 
+				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<?php
@@ -39,7 +39,7 @@
 					'theme_location'	=> 'menu-1',
 					'menu_id'			=> 'primary-menu',
 					'menu_class'		=> 'navbar-nav',
-					'container_class'	=> 'collapse navbar-collapse',
+					'container_class'	=> 'slide navbar-slide show',
 					'container_id'		=> 'navbarResponsive',
 				) );
 			?>
